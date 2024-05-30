@@ -1,5 +1,2 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Welcome! 
+Here's where I put things that are too silly to try and publish, but too interesting to let waste away in my private files.
