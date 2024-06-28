@@ -4,8 +4,9 @@ A little while ago I discovered an incredible package for R called 'text'. The f
 
 So, to learn the ropes of this package, I thought I'd start simple and have a crack at examining the relation between gender and words in film dialogue. I wanted to know: how do male versus female characters speak in movies*? I grabbed a pre-compiled corpus off of kaggle (link here), cleaned it up somewhat haphazardly (i.e., liberal use of drop.na), and then computed, preprocessed, and projected the word embeddings across character gender. The results are shown in Figure 1.
 
-Figure 1. 
-Association Between Film Dialogue Words and Character Gender
+**Figure 1.**
+
+*Association Between Film Dialogue Words and Character Gender*
 ![gender2](https://github.com/merielburnett/merielburnett.github.io/assets/171220833/9600fb08-0226-4924-982f-70cccd2d4e3c)
 
 
@@ -18,6 +19,9 @@ This pattern could be occurring for several reasons, aside from that they indica
 
 **The original film dialogue corpus had lines from 617 films. I excluded all lines from films released before 1960, bringing the total down to 512 films. I then collapsed lines of dialogue into characters, so all dialogue related to a given character in a given film was combined into a single row. Rows that did not have a gender were dropped. The result was 2434 individual characters, who each spoke an average of 756 words. There were obviously far more than 512 films released between 1960 and 2009 (the most recent film in the dataset), so this is far from a comprehensive sample. The data is instead compiled of films for which scripts and IMDB data are publically available, meaning it has what Grimmer et al. (2022) would call retrieval bias. Additionally, not having a gender identifier may have varied systematically with other factors, like film or actor popularity. All told, we can conclude that my data is skewed in some predictable and some unpredictable ways. 
 
+Kjell, O., Giorgi, S., & Schwartz, H. A. (2021). *The text-package: An R-package for Analyzing and Visualizing Human Language Using Natural Language Processing and Deep Learning*. OSF. https://doi.org/10.31234/osf.io/293kt
+Grimmer, J., Roberts, M., Stewart, B. (2022). *Text as Data: A New Framework for Machine Learning and the Social Sciences*. Princeton University Press.
+Silge, J., Robinson, D. *Text Mining with R: A Tidy Approach*. Retrieved June 21, 2024, from [https://www.amazon.com.au/Text-Mining-R-Tidy-Approach/dp/1491981652](https://www.tidytextmining.com/tidytext)
 
 
 
