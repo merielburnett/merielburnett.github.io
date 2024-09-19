@@ -11,15 +11,15 @@
 
 
 * Supervised Machine Learning for Text Analysis in R by Emil Hvitfeldt and Julia Silge
-  - I think of this book as the exciting sequel to Text Mining with R. It's definitely recommended reading for anyone learning the basics of text analysis. This book had a humbling and instructive effect on me when I originally read it in late 2023. I was about 60% of the way through when I realized that I was way too cocky with my text analysis skills, and that I'd need to spend some time getting to grips with the conceptual side of language processing before I jump into my text project.
+  - I think of this book as the exciting sequel to Text Mining with R. It's definitely recommended reading for anyone learning the basics of text analysis. This book had a humbling and instructive effect on me when I originally read it in late 2023. I was about 60% of the way through when I realized that I was way too cocky with my text analysis skills, and that I'd need to spend some time getting to grips with the conceptual side of language processing before I jump into my next text project.
 
  
 * Measuring Media Criticism with ALC Word Embeddings by Christopher Barrie, Neil Ketchley, Alexandra Siegel, and Mossaab Bagdouri
-  - This paper introduces a very cool and creative method of assessing attitudes toward a construct over time. In fact, I liked it so much that I had to design my own study which takes advantage of ALC embeddings.
+  - This paper introduces a very cool and creative method of assessing attitudes toward a construct over time. In fact, I liked it so much that I had to design my own study which uses ALC embeddings to similar effect.
 
 
 * Applied Predictive Modeling by Kjell Johnson and Max Kuhn
-  - Talk about a catchy title. This book is really well-written, with clear explanations of basic machine learning concepts. I think this should be required reading for all social science grad students. Busy grad students may wish to skip to page 522 for a discussion of Type III errors, and page 540 for the rationale for obtaining better quality samples rather than just larger samples.
+  - Talk about a catchy title. This book is really well-written, with clear explanations of basic machine learning concepts. I think this should be required reading for all social science grad students. Busy grad students may wish to skip to page 522 for a discussion of Type III errors, and page 540 for a rationale for obtaining better quality samples rather than just larger samples.
 
 
 ## Books I'm currently reading
